@@ -1,0 +1,37 @@
+# Bulk Email Sender — Python Requirements
+# All packages listed below are part of the Python standard library
+# (Python 3.11+) — no third-party installs are needed.
+#
+# Standard-library modules used:
+#   tkinter        — GUI framework
+#   smtplib        — SMTP protocol client
+#   ssl            — TLS/SSL wrapper
+#   csv            — CSV file parsing
+#   os             — OS utilities
+#   re             — Regular expressions
+#   time           — Sleep / delays
+#   logging        — Log file generation
+#   threading      — Background send thread
+#   datetime       — Timestamps
+#   email.*        — MIME message construction (email.mime.*, email.encoders)
+#   pathlib        — Path handling
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# OPTIONAL: If you want to use a virtual environment (recommended)
+# ─────────────────────────────────────────────────────────────────────────────
+#   python -m venv venv
+#   source venv/bin/activate          # Linux / macOS
+#   venv\Scripts\activate.bat         # Windows
+#   pip install -r requirements.txt   # (nothing to install — stdlib only)
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# MINIMUM PYTHON VERSION
+# ─────────────────────────────────────────────────────────────────────────────
+#   Python >= 3.11  (uses built-in type hints like list[dict])
+#   Download: https://www.python.org/downloads/
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# TKINTER NOTE (Linux only)
+# ─────────────────────────────────────────────────────────────────────────────
+#   On Ubuntu/Debian, Tkinter may need a separate install:
+#     sudo apt-get install python3-tk

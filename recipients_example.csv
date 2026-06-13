@@ -1,0 +1,7 @@
+email,name,company
+alice@example.com,Alice Johnson,Acme Corp
+bob@example.com,Bob Smith,Widget Inc
+carol@example.com,Carol White,Example Ltd
+dave@example.com,Dave Brown,Sample Co
+# Lines starting with # are skipped in TXT mode only.
+# In CSV mode every non-header row is processed; remove invalid rows manually.
